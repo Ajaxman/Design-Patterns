@@ -11,7 +11,7 @@
  */
 class Preferences {
 
-    private $props = array();
+    private $properties = array();
     private static $instance;
 
     private function __construct() { }
@@ -33,7 +33,7 @@ class Preferences {
      */
     public function setProperty( $key, $value )
     {
-        $this->props[$key] = $value;
+        $this->properties[$key] = $value;
     }
 
     /**
@@ -42,7 +42,7 @@ class Preferences {
      */
     public function getProperty( $key )
     {
-        return $this->props[$key];
+        return $this->properties[$key];
     }
 
 }
