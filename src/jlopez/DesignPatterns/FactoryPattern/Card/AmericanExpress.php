@@ -1,7 +1,7 @@
 <?php
-namespace Jlopez\Design\Patterns\FactoryPattern\Card;
+namespace Jlopez\DesignPatterns\FactoryPattern\Card;
 
-use Jlopez\Design\Patterns\FactoryPattern\Card;
+use Jlopez\DesignPatterns\FactoryPattern\Card;
 
 /**
  * Class AmericanExpress

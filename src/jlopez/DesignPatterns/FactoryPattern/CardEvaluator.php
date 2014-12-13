@@ -1,14 +1,14 @@
 <?php
-namespace Jlopez\Design\Patterns\FactoryPattern;
+namespace Jlopez\DesignPatterns\FactoryPattern;
 
 /**
  * Class CardEvaluator
- * @package Jlopez\Design\Patterns\FactoryPattern
+ * @package Jlopez\DesignPatterns\FactoryPattern
  */
 class CardEvaluator
 {
     /**
-     * @var \Jlopez\Design\Patterns\FactoryPattern\CardEvaluatorFactory
+     * @var \Jlopez\DesignPatterns\FactoryPattern\CardEvaluatorFactory
      */
     private $cardEvaluatorFactory;
 
@@ -20,7 +20,7 @@ class CardEvaluator
     }
 
     /**
-     * @return \Jlopez\Design\Patterns\FactoryPattern\CardEvaluatorFactory
+     * @return \Jlopez\DesignPatterns\FactoryPattern\CardEvaluatorFactory
      */
     public function getCardEvaluatorFactory()
     {
@@ -50,7 +50,7 @@ class CardEvaluator
      */
     protected function getCardsNumber()
     {
-        /** @var \Jlopez\Design\Patterns\FactoryPattern\Card $cardInstance */
+        /** @var \Jlopez\DesignPatterns\FactoryPattern\Card $cardInstance */
         $cardsNumber = $this->getCardNumber();
         if (!is_array($cardsNumber)) {
             $cardsNumber = [$this->getCardNumber()];

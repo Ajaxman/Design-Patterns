@@ -1,14 +1,14 @@
 <?php
-namespace Jlopez\Design\Patterns\FactoryPattern;
+namespace Jlopez\DesignPatterns\FactoryPattern;
 
-use Jlopez\Design\Patterns\FactoryPattern\Card\AmericanExpress;
-use Jlopez\Design\Patterns\FactoryPattern\Card\JBC;
-use Jlopez\Design\Patterns\FactoryPattern\Card\MasterCard;
-use Jlopez\Design\Patterns\FactoryPattern\Card\Visa;
+use Jlopez\DesignPatterns\FactoryPattern\Card\AmericanExpress;
+use Jlopez\DesignPatterns\FactoryPattern\Card\JBC;
+use Jlopez\DesignPatterns\FactoryPattern\Card\MasterCard;
+use Jlopez\DesignPatterns\FactoryPattern\Card\Visa;
 
 /**
  * Class CardEvaluatorFactory
- * @package Jlopez\Design\Patterns\FactoryPattern
+ * @package Jlopez\DesignPatterns\FactoryPattern
  */
 class CardEvaluatorFactory
 {
