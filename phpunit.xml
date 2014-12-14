@@ -11,7 +11,7 @@
              sytaxCheck="false">
         <testsuites>
             <testsuite name="Design pattern Tests">
-                <directory suffix=".php">src/Jlopez/Tests/Unit/FactoryPattern/</directory>
+                <directory suffix=".php">src/Jlopez/Tests/Unit/FactoryPattern</directory>
             </testsuite>
         </testsuites>
     </phpunit>
