@@ -11,7 +11,7 @@
              sytaxCheck="false">
         <testsuites>
             <testsuite name="Design pattern Tests">
-                <directory>src/jlopez/Tests/Unit/FactoryPattern</directory>
+                <directory>src/Jlopez/Tests/Unit/FactoryPattern</directory>
             </testsuite>
         </testsuites>
     </phpunit>
