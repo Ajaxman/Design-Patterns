@@ -14,9 +14,9 @@ class CardEvaluator
 
     private $cardNumber;
 
-    public function __construct()
+    public function __construct(CardEvaluatorFactory $cardEvaluatorFactory)
     {
-        $this->cardEvaluatorFactory = new CardEvaluatorFactory();
+        $this->cardEvaluatorFactory = $cardEvaluatorFactory;
     }
 
     /**
